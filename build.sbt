@@ -1,6 +1,6 @@
 name := "akka-typed-actors"
 
-organization := "com.mentat-labs.akkatyped"
+organization := "com.mentat_labs.akkatyped"
 
 version := "0.1"
 
@@ -30,3 +30,6 @@ unmanagedSourceDirectories in Test := (scalaSource in Test).value :: Nil
 unmanagedResourceDirectories in Compile := Nil
 
 unmanagedResourceDirectories in Test := Nil
+
+
+fork in run := true

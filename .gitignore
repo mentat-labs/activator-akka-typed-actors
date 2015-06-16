@@ -5,3 +5,11 @@ target/
 .classpath
 .project
 .settings
+
+# Activator-specific
+RUNNING_PID
+.sbtserver/
+project/.sbtserver
+project/.sbtserver.lock
+project/play-fork-run.sbt
+project/sbt-ui.sbt
